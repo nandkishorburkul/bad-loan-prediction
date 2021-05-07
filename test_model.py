@@ -1,7 +1,7 @@
 import pickle
 import json
 import numpy as np
-file_path = 'bad_loan_pred_forest.pickle'
+file_path = 'bad_loan_pred_forest.pkl'
 model = pickle.load(open(file_path,'rb'))
 
 __column_list = None
