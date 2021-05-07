@@ -1,8 +1,8 @@
-import pickle
+import joblib
 import json
 import numpy as np
 file_path = 'bad_loan_pred_forest.pkl'
-model = pickle.load(open(file_path,'rb'))
+model = joblib.load(open(file_path,'rb'))
 
 __column_list = None
 
