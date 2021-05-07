@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify,render_template
 import test_model
-import pickle
 # import config
 app = Flask(__name__)
 
