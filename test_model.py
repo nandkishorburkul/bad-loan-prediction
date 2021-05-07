@@ -1,7 +1,7 @@
 import joblib
 import json
 import numpy as np
-file_path = 'bad_loan_pred_forest.pkl'
+file_path = 'dt_loan_project.pkl'
 model = joblib.load(open(file_path,'rb'))
 
 __column_list = None
